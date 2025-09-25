@@ -1,0 +1,26 @@
+Algoritmo multiplicar
+	definir suma, suma_ind Como Entero
+	
+	suma = 0
+	suma_ind = 0
+	
+	para q = 1 hasta 10
+		
+		para i = 1 hasta 10
+			Escribir q, " x ", i, " = ", q * i
+			suma = suma + q * i
+			suma_ind = suma_ind + q * i
+		FinPara
+		
+		Escribir " "
+		Escribir "Suma de las multiplicaciones de ", q, ": ", suma_ind
+		Escribir " "
+		
+		suma_ind = 0
+		
+	FinPara
+	
+	Escribir "Suma final: ", suma
+	
+FinAlgoritmo
+
